@@ -1,0 +1,214 @@
+<!-- save it as Form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <mata charset="utf-8">
+      <link rel="stylesheet" href= "style.css">
+      <meta name ="viewpoint" content ="widht=device-width, inittial-scale-1">
+      <title> Volunteering Registration </title>
+</head>
+<body class ="RegistrationForm">
+
+  <header>
+    <div class = "MenuBar">
+      <nav>
+        <a href ="homepage.html">Home</a>
+        <a href="Form.html">Volunteering Form</a>
+        <a href ="MentalHealth1.html"> Mental Health</a>
+        <a href ="#elplineNumbers.html"> Helpline Numbers</a>
+      </nav>
+    </div>
+
+  <form>
+    <fieldset>
+      <legend>Volunteering Registration</legend>
+        <table>
+          <div class="personal detials">
+           <tr>
+            <td colspan = "3">
+               <p>
+                 <label for=" VolunteerName"> Volunteer Name</label><br>
+                 <input type="text"  name=" Volunteer Name " id = "VolunteerName" placeholder="Enter your name" size = "90">
+		           </p>
+               <p>
+                <label for ="OrganisationName"> Organisation Name</label><br>
+                <input type="text" name="Organisation Name "  id="OrganisationName " placeholder="Enter the organisation name" size ="90">
+          		 </p>
+               <p>
+                <label for="age"> Age</label><br>
+                <input type= "number " name =" Age" id= "age" placeholder= "Enter age" required >
+               </p>
+            </td>
+          </tr>
+          <tr>
+           <td colspan= "3">
+             <p>
+              <label for ="state"> State:-</label><br>
+              <select name ="State" id="state">
+              <option>Select State</option>
+              <option>Andhra Pradesh</option>
+	            <option>Arunachal Pradesh</option>
+	            <option>Assam</option>
+	            <option>Bihar</option>
+	            <option>Chhattisgarh</option>
+	            <option>Goa</option>
+	            <option>Gujarat	</option>
+	            <option> Haryana	</option>
+	            <option> Himachal Pradesh</option>
+	            <option>Jharkhand</option>
+	            <option> Karnataka</option>
+	            <option>Kerala</option>
+	            <option>  Madhya Pradesh</option>
+	            <option> Maharashtra</option>
+	            <option> Manipur	</option>
+	            <option>Meghalaya	</option>
+	            <option> Mizoram	 </option>
+	            <option>Nagaland	</option>
+	            <option>   Odisha	</option>
+	            <option>  Punjab</option>
+	            <option>   Rajasthan</option>
+              <option>Sikkim	</option>
+	            <option>   Tamil Nadu</option>
+	            <option> Telangana	</option>
+	            <option>   Tripura	</option>
+	            <option>  Uttar Pradesh	</option>
+	            <option> Uttarakhand	</option>
+	            <option> West Bengal</option>
+              </select>
+		         </p>
+             <p>
+              <label for= "City" >City:-</label><br>
+              <input type ="text"  naame ="City" id= "City" placeholder="Enter the name of the city" size ="90">
+             </p>
+              <p>
+               <label for=" houseAddress"> Full Address:</label><br>
+               <input type="text" name =" Full Address"  id ="houseAddress" placeholder="Enter address" size ="90">
+              </p>
+            </td>
+          </tr>
+          <tr>
+           <td colspan = "3">
+             <p>
+              <label for ="AAdharNumber"> Aadhar Number:-</label><br>
+              <input type="text"  name= " Aadhar Number " id= " AAdharNumber " placeholder="Enter Aadhar number"  size ="90" required>
+             </p>
+             <p>
+              <label for ="phoneNum">Phone Number:-</label><br>
+              <input type="number" placeholder="Enter Phone number" name ="Phone Number " id="phoneNum"  size ="90" required>
+             </p>
+             <p>
+               <label for ="email"> E-mail ID:-<label><br>
+               <input type="email"  name ="E-mail ID" id="email" placeholder="Enter E-mail ID" size = "90" required>
+             </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              <label for = "gender ">Gender:-<label><br>
+              <input type = "radio" name = "Gender" id = "gender" value = "male">Male<br>
+              <input type = "radio" name = "Gender" id = "gender" value = "female">Female<br>
+              <input type = "radio" name = "Gender" id = "gender" value = "other"> Other<br>
+            </p>
+          </td>
+        </tr>
+      </div>
+
+     <div classs ="Voluneering info">
+      <tr>
+        <td colspan="3">
+          <p>
+            <label for="StateV">State For Volunteering:-<label><br>
+            <select name ="State For Volunteering" id="StateV "select name ="State" id="stateV" required >
+            <option>Select State</option>
+            <option>Andhra Pradesh</option>
+     	      <option>Arunachal Pradesh</option>
+     	      <option>Assam</option>
+     	      <option>Bihar</option>
+     	      <option>Chhattisgarh</option>
+     	      <option>Goa</option>
+     	      <option>Gujarat	</option>
+     	      <option> Haryana	</option>
+     	      <option> Himachal Pradesh</option>
+     	      <option>Jharkhand</option>
+     	      <option> Karnataka</option>
+     	      <option>Kerala</option>
+     	      <option>  Madhya Pradesh</option>
+     	      <option> Maharashtra</option>
+     	      <option> Manipur	</option>
+     	      <option>Meghalaya	</option>
+     	      <option> Mizoram	 </option>
+     	      <option>Nagaland	</option>
+     	      <option>   Odisha	</option>
+     	      <option>  Punjab</option>
+     	      <option>   Rajasthan</option>
+            <option>Sikkim	</option>
+     	      <option>   Tamil Nadu</option>
+     	      <option> Telangana	</option>
+     	      <option>   Tripura	</option>
+     	      <option>  Uttar Pradesh	</option>
+     	      <option> Uttarakhand	</option>
+     	      <option> West Bengal</option>
+            </select>
+          </p>
+          <p>
+           <label for= "CityV"> City For Volunteering:-</label><br>
+           <input type ="text"  name = "City For Volunteering" id = "CityV"  placeholder ="Enter the city name " size = "90" required>
+          </p>
+          <p>
+           <label for= "DateOfStart"> Date from which Volunteer can start:-</label><br>
+           <input type ="date" name = "Date from which Volunteer ccan start" id ="DateofStart" required>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <p>
+             <label for = "FieldV">Volunteering Field willing to work for</label><br><br>
+             <input type ="checkbox" name = "Volunteering Field work " id=" FieldV" value = "Plasma Donation"> Plasma Donation<br>
+             <input type ="checkbox" name ="Volunteering Feild work" id= "FieldV" value  ="Frontline">Frontline<br>
+             <input type ="checkbox" name ="Volunteering Feild work" id ="FieldV" value="Food to quarentined patients">Providing Food to quarentined patients<br>
+             <input type ="checkbox" name ="Volunteering Field work" id="FieldV" value="Oxygen cylenders">Providing Oxygen Cylenders<br>
+             <input type ="checkbox" name ="Volunteering Field work" id ="FieldV" value="Transportation facilities"> Transportation Facilities <br>
+             <input type ="checkbox" name ="Volunteering Field work" id ="FieldV" value= "Area to be turned to Covid-relief centers"> Area to turn for CoVid-19 treatment<br>
+             <input type ="checkbox" name ="VOlunteering Field work" id ="FieldV" value ="Area to turn to Quarentine Center "> Area to turn to Quarentine Center<br>
+           </p>
+        </td>
+      </tr>
+    </div>
+
+    <div class=" infor about Covid">
+      <tr>
+        <td colspan = "2">
+          <p>
+                          <label for ="Covid infected"> Has the volunteer ever been Covid-19 infected </label><br>
+                          <input type = "radio" id ="Covid infected " name ="CovidI" value ="yes">Yes<br>
+                          <input type ="radio" id ="Covid infected " name ="CovidI" value = "no"> No<br>
+                        </p>
+                        <p>
+                          <label for ="Vaccinated">Has the volunteer completed the  Vaccination</label><br>
+                          <input type ="radio" id ="Vaccinated" name  ="Vaccination" value ="yes">Yes<br>
+                          <input type ="radio" id ="Vaccinated" name ="Vaccination" value ="No"> No<br>
+                        </p>
+                        </td>
+                       </tr>
+                       </div>
+                       <div class ="buttons>"
+                       <tr>
+                         <td>
+                         <input type = "reset" class = "submitbutton">
+                         <input type= "submit" value = "Submit" class = "submitbutton">
+                         <td>
+                      </tr>
+                      </div>
+                    </table>
+                  </fieldset>
+                  </form>
+                    <footer>
+                      <p>
+                        Thank your , for volunteering and providing your help.<br>
+                        For any further queries, you will be contacted via the given details.
+                      <p>
+                      </footer>
+</body>
+</html>
