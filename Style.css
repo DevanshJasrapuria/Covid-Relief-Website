@@ -1,0 +1,77 @@
+/* style.css */
+.try{
+  width: 200px; padding 20px; border: 5px solid black;
+
+}
+a:hover
+{
+  color: #ddd;
+  background-color: grey;
+}
+.MenuBar{
+  overflow: hidden;
+  background-color: #184878;
+
+}
+.MenuBar a{
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.MenuBar a.active{
+  background-color: #333;
+  color:#d8f0ff ;
+}
+.headofmental{
+  font-size: 60px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.MentalHealth{
+  font-size: 16pt;
+  font-family: Tahoma, Arial , Helvetca;
+  margin: auto;
+  width: 80%;
+  background-color: #F0FFFF;
+  padding : 1em 1em 1em 1em ;
+
+}
+
+legend{
+  text-align: center ;
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: underline;
+  border-style: none ;
+  background-color: ;
+  font-family: Tahoma, Arial , Helvetca;
+  font-weight: bold;
+  Color: black;
+  width: 30%;
+}
+
+.RegistrationForm
+{
+  margin: auto;
+  width: 80%;
+  background-color: #0093E9;
+background-image: linear-gradient(60deg, #93a5cf  , #e4efe9 );
+}
+.thh, .tdd {
+  padding: 15px;
+  text-align: left;
+}
+.thh, .tdd {
+  border-bottom: 1px solid #ddd;
+}
+.trr:hover {background-color: #f5f5f5;}
+.thh {
+  background-color: #ADD8E6;
+  color: white;
+}
+.sss{
+  font-size: "30px";
+}
